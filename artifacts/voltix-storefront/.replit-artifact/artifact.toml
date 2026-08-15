@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "VOLTIX Storefront"
+description = "A premium frontend-only Indian electronics storefront for VOLTIX, with realistic product discovery, local cart and wishlist state, quick add, search, deals, product details, and a polished demo checkout flow."
+version = "1.0.0"
+id = "artifacts/voltix-storefront"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22161
+
+[services.development]
+run = "pnpm --filter @workspace/voltix-storefront run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/voltix-storefront", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/voltix-storefront/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22161"
+BASE_PATH = "/"

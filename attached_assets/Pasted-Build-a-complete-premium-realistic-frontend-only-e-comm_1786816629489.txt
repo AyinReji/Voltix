@@ -1,0 +1,906 @@
+Build a complete, premium, realistic **frontend-only e-commerce website** for a fictional Indian electronics and gadgets brand called **VOLTIX**.
+
+The website should feel like a real, modern e-commerce store similar in structure and usability to a professional Shopify store, while having its own visual identity.
+
+## CORE OBJECTIVE
+
+Create an online store selling:
+
+* Smartphones & accessories
+* Wireless earbuds
+* Headphones
+* Smartwatches
+* Power banks
+* Chargers
+* Cables
+* Bluetooth speakers
+* Laptop accessories
+* Smart gadgets
+
+This is a **frontend-only portfolio/demo project**.
+
+Do NOT build:
+
+* Backend
+* Database
+* Authentication
+* Admin dashboard
+* Real payment processing
+* Real order processing
+
+Use realistic mock product data and local state/localStorage.
+
+---
+
+# BRAND
+
+**VOLTIX**
+
+Tagline:
+
+**Tech that keeps up.**
+
+Positioning:
+
+Modern consumer electronics and everyday tech accessories at accessible premium prices.
+
+Target audience:
+
+Students, young professionals, creators and everyday tech users in India.
+
+Brand personality:
+
+* Modern
+* Reliable
+* Minimal
+* Fast
+* Tech-focused
+* Premium but accessible
+
+---
+
+# VISUAL DIRECTION
+
+Create a clean, modern electronics-store aesthetic.
+
+Use:
+
+* White / very light gray background
+* Black / charcoal typography
+* Deep blue or electric violet as the accent
+* Clean product photography
+* Sharp product cards
+* Strong typography
+* Subtle shadows
+* Thin borders
+* Minimal gradients
+* Small amounts of rounded corners
+* Smooth micro-interactions
+
+The website should feel like a **premium modern electronics retailer**, not a cheap marketplace.
+
+Avoid:
+
+* Excessive neon
+* Cyberpunk styling
+* Excessive glassmorphism
+* Excessive gradients
+* Overly dark interfaces
+* Giant unnecessary text
+* Excessive animations
+* Cluttered product cards
+
+---
+
+# ANNOUNCEMENT BAR
+
+Create:
+
+**FREE SHIPPING ON ORDERS ABOVE ₹999 | 7-DAY EASY RETURNS**
+
+---
+
+# NAVIGATION
+
+Logo:
+
+**VOLTIX**
+
+Navigation:
+
+* Shop
+* Audio
+* Wearables
+* Power
+* Accessories
+* Best Sellers
+* Deals
+
+Right:
+
+* Search
+* Account
+* Wishlist
+* Cart
+
+Make the header sticky.
+
+On mobile:
+
+* Hamburger
+* Logo
+* Search
+* Cart
+
+---
+
+# HERO SLIDESHOW
+
+Create a large **3-slide promotional hero carousel**.
+
+Use high-quality product/lifestyle imagery.
+
+## Slide 1
+
+Visual:
+Premium wireless earbuds on a minimal desk setup.
+
+Headline:
+
+**Sound. Without limits.**
+
+Supporting text:
+
+"Immersive audio built for your everyday."
+
+CTA:
+
+**Shop Audio**
+
+---
+
+## Slide 2
+
+Visual:
+Smartwatch on a modern lifestyle background.
+
+Headline:
+
+**Your day. Connected.**
+
+Supporting text:
+
+"Stay connected, track more and move smarter."
+
+CTA:
+
+**Explore Wearables**
+
+---
+
+## Slide 3
+
+Visual:
+Power bank, charging cable and smartphone on a clean desk.
+
+Headline:
+
+**Never run out of power.**
+
+Supporting text:
+
+"Reliable charging for wherever the day takes you."
+
+CTA:
+
+**Shop Power**
+
+### Slideshow behaviour
+
+Implement:
+
+* Auto-play every 5 seconds
+* Previous/next arrows
+* Pagination dots
+* Smooth transitions
+* Pause on hover
+* Swipe on mobile
+* Responsive images
+
+Make the hero visually strong and immediately commercial.
+
+---
+
+# SHOP BY CATEGORY
+
+Headline:
+
+**Find your next essential.**
+
+Create six visual category cards:
+
+### Audio
+
+Earbuds & headphones
+
+### Wearables
+
+Smartwatches & trackers
+
+### Power
+
+Chargers & power banks
+
+### Speakers
+
+Sound anywhere
+
+### Accessories
+
+Everyday tech essentials
+
+### Desk Setup
+
+Products for your workspace
+
+---
+
+# BEST SELLERS
+
+Display 8 products.
+
+Create realistic products:
+
+### VOLTIX AirBuds Pro
+
+₹2,499
+
+### VOLTIX Watch S2
+
+₹3,999
+
+### VOLTIX PowerBank 20K
+
+₹1,499
+
+### VOLTIX ChargeDock 65W
+
+₹1,799
+
+### VOLTIX Bass Mini
+
+₹1,999
+
+### VOLTIX Flex Cable
+
+₹499
+
+### VOLTIX Wireless Headphones
+
+₹2,999
+
+### VOLTIX MagStand
+
+₹1,299
+
+Product cards must include:
+
+* Product image
+* Product name
+* Short description
+* Price
+* Compare-at price
+* Discount badge
+* Star rating
+* Review count
+* Wishlist
+* Quick Add
+* Product variant where relevant
+
+---
+
+# DEALS SECTION
+
+Create a high-conversion promotional section.
+
+Headline:
+
+**Tech worth grabbing.**
+
+Show 3 promotional products with:
+
+* Original price
+* Sale price
+* Discount
+* Limited-time badge
+* Add to Cart
+
+Add a visual countdown timer:
+
+**Ends in 08 : 42 : 16**
+
+The timer can reset automatically for demo purposes.
+
+CTA:
+
+**View All Deals**
+
+---
+
+# FEATURED PRODUCT
+
+Create a large editorial product section.
+
+Product:
+
+**VOLTIX AirBuds Pro**
+
+₹2,499
+
+★★★★☆ 4.8
+326 reviews
+
+Headline:
+
+**Small case. Big sound.**
+
+Show:
+
+* Large product imagery
+* ANC
+* 30-hour battery
+* USB-C charging
+* Bluetooth connectivity
+
+CTA:
+
+**Shop AirBuds Pro**
+
+---
+
+# WHY VOLTIX
+
+Create four simple benefit blocks:
+
+### Fast Delivery
+
+India-wide delivery.
+
+### Easy Returns
+
+7-day easy returns.
+
+### Secure Checkout
+
+Safe and simple checkout experience.
+
+### Customer Support
+
+Help when you need it.
+
+---
+
+# PRODUCT DISCOVERY SECTION
+
+Headline:
+
+**What are you shopping for?**
+
+Create quick navigation chips:
+
+* Under ₹999
+* Under ₹1,999
+* Best Rated
+* New Arrivals
+* Trending
+* Deals
+
+Each should filter the product catalog.
+
+---
+
+# EDITORIAL BANNER
+
+Create a large lifestyle banner:
+
+Headline:
+
+**Upgrade your everyday setup.**
+
+Supporting text:
+
+"From your desk to your commute, discover tech designed around how you actually live."
+
+CTA:
+
+**Explore Accessories**
+
+Use a modern workspace image.
+
+---
+
+# REVIEWS
+
+Create a customer review section.
+
+Include:
+
+* Customer name
+* Star rating
+* Product
+* Review
+* Optional customer avatar
+
+Example:
+
+**Rahul M.**
+
+★★★★★
+
+"The battery life is genuinely impressive for the price."
+
+These are demo reviews and must not be presented as verified real purchases.
+
+---
+
+# COLLECTION PAGE
+
+Create complete collection pages.
+
+Categories:
+
+* All Products
+* Audio
+* Wearables
+* Power
+* Speakers
+* Accessories
+* Deals
+
+Include:
+
+* Product count
+* Filters
+* Sorting
+* Product grid
+
+Filters:
+
+* Category
+* Price
+* Brand
+* Rating
+* Connectivity
+* Availability
+
+Sorting:
+
+* Featured
+* Best Selling
+* Newest
+* Price Low to High
+* Price High to Low
+* Rating
+
+Desktop:
+
+4-column grid.
+
+Mobile:
+
+2-column grid.
+
+---
+
+# PRODUCT PAGE
+
+Create a professional electronics product page.
+
+Example:
+
+**VOLTIX AirBuds Pro**
+
+₹2,499
+
+★★★★☆ 4.8
+326 reviews
+
+Include:
+
+* Large product gallery
+* Product thumbnails
+* Product title
+* Rating
+* Price
+* Compare-at price
+* Discount
+* Colour selector
+* Quantity
+* Add to Cart
+* Buy Now
+* Wishlist
+* Delivery/pincode checker
+
+Create a product highlights row:
+
+**ANC**
+
+**30H Battery**
+
+**USB-C**
+
+**Bluetooth 5.3**
+
+Add accordions:
+
+* Description
+* Specifications
+* What's in the Box
+* Compatibility
+* Shipping & Returns
+
+Add:
+
+**You may also need**
+
+with compatible accessories.
+
+---
+
+# QUICK ADD
+
+Clicking Quick Add should open a drawer containing:
+
+* Product image
+* Product name
+* Price
+* Colour/variant
+* Quantity
+* Add to Cart
+
+After adding:
+
+Show toast:
+
+**Added to cart**
+
+---
+
+# SEARCH
+
+Create a powerful frontend search overlay.
+
+Users can search:
+
+* Product names
+* Categories
+* Product types
+
+Show:
+
+* Search suggestions
+* Matching products
+* Categories
+* Recent searches
+
+---
+
+# WISHLIST
+
+Implement a functional wishlist with localStorage.
+
+Users can:
+
+* Add/remove products
+* View wishlist
+* Move products to cart
+
+---
+
+# CART DRAWER
+
+Create a Shopify-style cart drawer.
+
+Display:
+
+* Product image
+* Product
+* Variant
+* Quantity controls
+* Price
+* Remove
+
+Show:
+
+**Subtotal**
+
+Shipping progress:
+
+**₹XXX away from FREE SHIPPING**
+
+Then:
+
+**You may also like**
+
+with 2–3 complementary accessories.
+
+Buttons:
+
+**Checkout**
+
+**Continue Shopping**
+
+---
+
+# CHECKOUT
+
+Create a realistic frontend-only checkout.
+
+## Contact
+
+Email
+Mobile
+
+## Delivery Address
+
+Full name
+Address
+City
+State
+PIN code
+
+## Delivery
+
+Standard Delivery — Free
+
+Express Delivery — ₹99
+
+## Payment
+
+Create a modern mock Indian payment interface:
+
+* UPI
+* Credit/Debit Card
+* Net Banking
+* Wallet
+
+Primary CTA:
+
+**Pay ₹X,XXX**
+
+After clicking, simulate successful payment.
+
+Show:
+
+# Order Confirmed
+
+"Your VOLTIX order is on its way."
+
+Display:
+
+* Demo order number
+* Order amount
+* Estimated delivery
+* Continue Shopping
+
+IMPORTANT:
+
+This is a portfolio/demo payment flow.
+
+Do not connect to Razorpay, Stripe, PayPal or any real payment provider.
+
+Do not collect or store real card details.
+
+---
+
+# FOOTER
+
+Create a complete e-commerce footer.
+
+### Shop
+
+Audio
+Wearables
+Power
+Speakers
+Accessories
+Deals
+Best Sellers
+
+### Customer Support
+
+Contact
+Track Order
+Shipping
+Returns
+FAQ
+
+### About
+
+About VOLTIX
+Careers
+Contact
+
+### Legal
+
+Privacy
+Terms
+Refund Policy
+
+### Newsletter
+
+**Stay ahead of what's next.**
+
+Email field:
+
+Your email address
+
+Button:
+
+**Subscribe**
+
+Social icons.
+
+---
+
+# PRODUCT DATA
+
+Create at least **24 realistic products** distributed across categories.
+
+Use realistic INR pricing from ₹299 to ₹7,999.
+
+Include:
+
+* Product images
+* Prices
+* Compare-at prices
+* Ratings
+* Reviews
+* Categories
+* Colours
+* Short descriptions
+* Specifications
+
+Make the catalog feel like a genuine store rather than placeholder data.
+
+---
+
+# FUNCTIONALITY
+
+Implement:
+
+* Hero slideshow
+* Search
+* Product filtering
+* Sorting
+* Product routing
+* Quick Add
+* Add to Cart
+* Cart drawer
+* Quantity updates
+* Wishlist
+* Demo coupon
+* Deals countdown
+* Checkout
+* Mock payment
+* Order confirmation
+* Toast notifications
+* Mobile navigation
+* Swipe gestures
+* Hover states
+* Loading states
+* localStorage persistence
+
+---
+
+# TECH STACK
+
+Use:
+
+* React
+* TypeScript
+* Tailwind CSS
+* Component-based architecture
+* Local mock product data
+* Local state
+* localStorage
+
+Create reusable components:
+
+* AnnouncementBar
+* Navbar
+* MobileMenu
+* HeroSlideshow
+* CategoryCard
+* ProductCard
+* ProductGrid
+* ProductGallery
+* QuickAddDrawer
+* CartDrawer
+* CartItem
+* SearchOverlay
+* FilterDrawer
+* Wishlist
+* DealCountdown
+* ReviewCard
+* Checkout
+* PaymentSelector
+* Toast
+* Footer
+
+---
+
+# RESPONSIVE DESIGN
+
+The website must be intentionally responsive.
+
+Desktop:
+
+* 4-column product grids
+* Large hero
+* Spacious layout
+
+Tablet:
+
+* 3-column product grids
+
+Mobile:
+
+* 2-column product grids
+* Swipeable hero
+* Compact sticky header
+* Mobile filter drawer
+* Touch-friendly buttons
+* Sticky Add to Cart on product page
+* No horizontal overflow
+
+---
+
+# IMAGE REQUIREMENT
+
+Use high-quality real-world-looking electronics/product/lifestyle imagery.
+
+Prioritize:
+
+1. Hero slideshow
+2. Product cards
+3. Category cards
+4. Featured product
+5. Workspace editorial banner
+6. Product detail gallery
+
+Use consistent product photography and lighting.
+
+Avoid generic abstract images.
+
+---
+
+# FINAL QUALITY STANDARD
+
+The final result should feel like a **real modern Indian electronics e-commerce store**, not a landing page or AI-generated template.
+
+It should have the shopping psychology of a real Shopify store:
+
+**Discover → Compare → Trust → Add to Cart → Checkout**
+
+The first 5 seconds should communicate:
+
+**What does VOLTIX sell?**
+
+**What should I buy?**
+
+**Why should I trust this store?**
+
+**Where do I start shopping?**
+
+Prioritize conversion, product discovery and visual polish.
+
+Do not add:
+
+* Blog
+* SEO content
+* Admin dashboard
+* Backend
+* Complex unnecessary features
+
+Make it polished enough to present directly as a **Kaeon Studios e-commerce portfolio project**.
