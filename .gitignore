@@ -3,6 +3,7 @@
 # compiled output
 dist
 /public
+artifacts/voltix-storefront/public
 .vercel
 tmp
 out-tsc
