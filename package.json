@@ -5,7 +5,7 @@
   "scripts": {
     "preinstall": "node -e \"\"",
     "build": "pnpm run typecheck && pnpm -r --if-present run build",
-    "vercel-build": "pnpm --filter @workspace/voltix-storefront build",
+    "vercel-build": "pnpm --filter @workspace/voltix-storefront build && node -e \"require('fs').cpSync('artifacts/voltix-storefront/dist/public', 'public', {recursive: true})\"",
     "typecheck:libs": "tsc --build",
     "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck"
   },
