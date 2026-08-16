@@ -15,11 +15,14 @@ console.log(`[build-vercel] Step 2: Copying build output from ${actualSrc}...`);
 const targets = [
   path.resolve(__dirname, '../dist'),
   path.resolve(__dirname, '../public'),
+  path.resolve(__dirname, '../artifacts/voltix-storefront/dist'),
+  path.resolve(__dirname, '../artifacts/voltix-storefront/dist/public'),
   path.resolve(__dirname, '../artifacts/voltix-storefront/public'),
   path.resolve(__dirname, '../.vercel/output/static')
 ];
 
 for (const target of targets) {
+  if (path.resolve(target) === path.resolve(actualSrc)) continue;
   fs.mkdirSync(target, { recursive: true });
   fs.cpSync(actualSrc, target, { recursive: true });
   console.log(`[build-vercel] Synced output to: ${target}`);
